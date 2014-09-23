@@ -1,0 +1,37 @@
+<p><script type="text/javascript"><!--
+function showHide(id,cl) {
+var myclass = new RegExp('\\b'+cl+'\\b');
+var elem = document.getElementsByTagName('body')[0].getElementsByTagName('*');
+for (var i = 0; i < elem.length; i++) {
+var classes = elem[i].className;
+if (myclass.test(classes)) elem[i].style.display = 'none' ;
+}
+if (id) document.getElementById(id).style.display = 'block';
+}
+window.onload = function() {showHide('a1','one');}
+//--></script><br />
+<center></p>
+<div><span style="cursor:pointer" onclick="showHide('a1','one')"><b>JKPSC</span>  || <span style="cursor:pointer" onclick="showHide('a2','one')">JKGAD</span> || <span style="cursor:pointer" onclick="showHide('a3','one')">JKFCR</span> || <span style="cursor:pointer" onclick="showHide('a4','one')">JKSSB</span></div>
+<div id="a1" class="red one">
+<div style=" overflow: hidden; margin: 15px float:left; auto; max-width: 460px;" >
+<iframe scr.lling="no" src="http://jkpsc.nic.in/" style="border: 0px none; margin-left: -230px; height: 700px; margin-top: -420px; width: 926px;"><br />
+</iframe>
+</div>
+</div>
+<div id="a2" class="one">
+<div style=" overflow: hidden; margin: 15px float:left; auto; max-width: 490px;" >
+<iframe scrolling="no" src="http://jkgad.nic.in/" style="border: 0px none; margin-left: -225px; height: 800px; margin-top: -500px; width: 956px;"><br />
+</iframe>
+</div>
+</div>
+<div id="a3" class="one">
+<div style=" overflow: hidden; margin: 15px float:left; auto; max-width: 500px;" >
+<iframe scrolling="no" src="http://jkfcr.nic.in/" style="border: 0px none; margin-left: -225px; height: 695px; margin-top: -390px; width: 966px;"><br />
+</iframe>
+</div>
+</div>
+<div id="a4" class="one red">
+<iframe scrolling="no" src="http://jkssb.nic.in/WriteReadData/File/Home.htm" style="border: 0px none; height: 270px; width: 580px;"><br />
+</iframe>
+</div>
+<p></center></p>
